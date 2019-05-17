@@ -1,0 +1,600 @@
+fileFormatVersion: 2
+guid: ed5b4d82d840602478ba719f19477d95
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: arm left elbow
+    100002: arm left elbow twist
+    100004: arm left finger 1a
+    100006: arm left finger 1b
+    100008: arm left finger 1c
+    100010: arm left finger 2a
+    100012: arm left finger 2b
+    100014: arm left finger 2c
+    100016: arm left finger 3a
+    100018: arm left finger 3b
+    100020: arm left finger 3c
+    100022: arm left finger 4a
+    100024: arm left finger 4b
+    100026: arm left finger 4c
+    100028: arm left finger 5a
+    100030: arm left finger 5b
+    100032: arm left finger 5c
+    100034: arm left helper
+    100036: arm left shoulder 1
+    100038: arm left shoulder 2
+    100040: arm left wrist
+    100042: arm right elbow
+    100044: arm right elbow twist
+    100046: arm right finger 1a
+    100048: arm right finger 1b
+    100050: arm right finger 1c
+    100052: arm right finger 2a
+    100054: arm right finger 2b
+    100056: arm right finger 2c
+    100058: arm right finger 3a
+    100060: arm right finger 3b
+    100062: arm right finger 3c
+    100064: arm right finger 4a
+    100066: arm right finger 4b
+    100068: arm right finger 4c
+    100070: arm right finger 5a
+    100072: arm right finger 5b
+    100074: arm right finger 5c
+    100076: arm right helper
+    100078: arm right shoulder 1
+    100080: arm right shoulder 2
+    100082: arm right wrist
+    100084: Blush
+    100086: blush left
+    100088: blush right
+    100090: Body
+    100092: Box001
+    100094: Box002
+    100096: Box003
+    100098: Bulb
+    100100: Bulb001
+    100102: CLOUD CONTROL 2D
+    100104: 'CLOUD CONTROL 3D '
+    100106: 'CLOUD SHADOW CONTROL 3D '
+    100108: control stick left
+    100110: control stick right
+    100112: Core Flame
+    100114: Core Flame001
+    100116: Cylinder001
+    100118: Eyebrows 1
+    100120: Eyes
+    100122: Eyes001
+    100124: Face
+    100126: Face001
+    100128: flame back a
+    100130: flame back b
+    100132: flame left 1
+    100134: flame left 2
+    100136: flame left 3
+    100138: flame right 1
+    100140: flame right 2
+    100142: flame right 3
+    100144: Gem
+    100146: Gem001
+    100148: Hair
+    100150: Hair001
+    100152: hatch back left lower
+    100154: hatch back left upper
+    100156: hatch back right lower
+    100158: hatch back right upper
+    100160: hatch front left
+    100162: hatch front right
+    100164: Hatch Glass
+    100166: hatch glass
+    100168: head cheek left
+    100170: head cheek right
+    100172: head eyebrow left 1
+    100174: head eyebrow left 2
+    100176: head eyebrow left 3
+    100178: head eyebrow left helper
+    100180: head eyebrow right 1
+    100182: head eyebrow right 2
+    100184: head eyebrow right 3
+    100186: head eyebrow right helper
+    100188: head eyelid left lower
+    100190: head eyelid left upper
+    100192: head eyelid right lower
+    100194: head eyelid right upper
+    100196: head iris left
+    100198: head iris right
+    100200: head jaw
+    100202: head lip lower left
+    100204: head lip lower middle
+    100206: head lip lower right
+    100208: head lip upper left
+    100210: head lip upper middle
+    100212: head lip upper right
+    100214: head mouth corner lower left
+    100216: head mouth corner lower right
+    100218: head mouth corner upper left
+    100220: head mouth corner upper right
+    100222: head neck lower
+    100224: head neck upper
+    100226: head tongue a
+    100228: head tongue b
+    100230: Internal Base
+    100232: Internal Base001
+    100234: Internal Controls
+    100236: Internal Controls001
+    100238: Irises
+    100240: leg left ankle
+    100242: leg left knee
+    100244: leg left thigh
+    100246: leg left toes
+    100248: leg right ankle
+    100250: leg right knee
+    100252: leg right thigh
+    100254: leg right toes
+    100256: light left
+    100258: light right
+    100260: Mach 004
+    100262: Mach 3
+    100264: //RootNode
+    100266: OUTLINE
+    100268: pelvis
+    100270: Plane001
+    100272: Plane009
+    100274: Plane062
+    100276: Plane063
+    100278: Plane064
+    100280: root bone
+    100282: root hips
+    100284: seat belt
+    100286: Side Wing Flames
+    100288: Side Wing Flames001
+    100290: spine lower
+    100292: spine upper
+    100294: Stars
+    100296: Teeth
+    100298: Teeth001
+    100300: wheels back left a
+    100302: wheels back left b
+    100304: wheels back left c
+    100306: wheels back left d
+    100308: wheels back right a
+    100310: wheels back right b
+    100312: wheels back right c
+    100314: wheels back right d
+    100316: wheels front a
+    100318: wheels front b
+    100320: wheels front c
+    100322: wheels front d
+    100324: wheels front e
+    100326: wing left a
+    100328: wing left b
+    100330: wing right a
+    100332: wing right b
+    400000: arm left elbow
+    400002: arm left elbow twist
+    400004: arm left finger 1a
+    400006: arm left finger 1b
+    400008: arm left finger 1c
+    400010: arm left finger 2a
+    400012: arm left finger 2b
+    400014: arm left finger 2c
+    400016: arm left finger 3a
+    400018: arm left finger 3b
+    400020: arm left finger 3c
+    400022: arm left finger 4a
+    400024: arm left finger 4b
+    400026: arm left finger 4c
+    400028: arm left finger 5a
+    400030: arm left finger 5b
+    400032: arm left finger 5c
+    400034: arm left helper
+    400036: arm left shoulder 1
+    400038: arm left shoulder 2
+    400040: arm left wrist
+    400042: arm right elbow
+    400044: arm right elbow twist
+    400046: arm right finger 1a
+    400048: arm right finger 1b
+    400050: arm right finger 1c
+    400052: arm right finger 2a
+    400054: arm right finger 2b
+    400056: arm right finger 2c
+    400058: arm right finger 3a
+    400060: arm right finger 3b
+    400062: arm right finger 3c
+    400064: arm right finger 4a
+    400066: arm right finger 4b
+    400068: arm right finger 4c
+    400070: arm right finger 5a
+    400072: arm right finger 5b
+    400074: arm right finger 5c
+    400076: arm right helper
+    400078: arm right shoulder 1
+    400080: arm right shoulder 2
+    400082: arm right wrist
+    400084: Blush
+    400086: blush left
+    400088: blush right
+    400090: Body
+    400092: Box001
+    400094: Box002
+    400096: Box003
+    400098: Bulb
+    400100: Bulb001
+    400102: CLOUD CONTROL 2D
+    400104: 'CLOUD CONTROL 3D '
+    400106: 'CLOUD SHADOW CONTROL 3D '
+    400108: control stick left
+    400110: control stick right
+    400112: Core Flame
+    400114: Core Flame001
+    400116: Cylinder001
+    400118: Eyebrows 1
+    400120: Eyes
+    400122: Eyes001
+    400124: Face
+    400126: Face001
+    400128: flame back a
+    400130: flame back b
+    400132: flame left 1
+    400134: flame left 2
+    400136: flame left 3
+    400138: flame right 1
+    400140: flame right 2
+    400142: flame right 3
+    400144: Gem
+    400146: Gem001
+    400148: Hair
+    400150: Hair001
+    400152: hatch back left lower
+    400154: hatch back left upper
+    400156: hatch back right lower
+    400158: hatch back right upper
+    400160: hatch front left
+    400162: hatch front right
+    400164: Hatch Glass
+    400166: hatch glass
+    400168: head cheek left
+    400170: head cheek right
+    400172: head eyebrow left 1
+    400174: head eyebrow left 2
+    400176: head eyebrow left 3
+    400178: head eyebrow left helper
+    400180: head eyebrow right 1
+    400182: head eyebrow right 2
+    400184: head eyebrow right 3
+    400186: head eyebrow right helper
+    400188: head eyelid left lower
+    400190: head eyelid left upper
+    400192: head eyelid right lower
+    400194: head eyelid right upper
+    400196: head iris left
+    400198: head iris right
+    400200: head jaw
+    400202: head lip lower left
+    400204: head lip lower middle
+    400206: head lip lower right
+    400208: head lip upper left
+    400210: head lip upper middle
+    400212: head lip upper right
+    400214: head mouth corner lower left
+    400216: head mouth corner lower right
+    400218: head mouth corner upper left
+    400220: head mouth corner upper right
+    400222: head neck lower
+    400224: head neck upper
+    400226: head tongue a
+    400228: head tongue b
+    400230: Internal Base
+    400232: Internal Base001
+    400234: Internal Controls
+    400236: Internal Controls001
+    400238: Irises
+    400240: leg left ankle
+    400242: leg left knee
+    400244: leg left thigh
+    400246: leg left toes
+    400248: leg right ankle
+    400250: leg right knee
+    400252: leg right thigh
+    400254: leg right toes
+    400256: light left
+    400258: light right
+    400260: Mach 004
+    400262: Mach 3
+    400264: //RootNode
+    400266: OUTLINE
+    400268: pelvis
+    400270: Plane001
+    400272: Plane009
+    400274: Plane062
+    400276: Plane063
+    400278: Plane064
+    400280: root bone
+    400282: root hips
+    400284: seat belt
+    400286: Side Wing Flames
+    400288: Side Wing Flames001
+    400290: spine lower
+    400292: spine upper
+    400294: Stars
+    400296: Teeth
+    400298: Teeth001
+    400300: wheels back left a
+    400302: wheels back left b
+    400304: wheels back left c
+    400306: wheels back left d
+    400308: wheels back right a
+    400310: wheels back right b
+    400312: wheels back right c
+    400314: wheels back right d
+    400316: wheels front a
+    400318: wheels front b
+    400320: wheels front c
+    400322: wheels front d
+    400324: wheels front e
+    400326: wing left a
+    400328: wing left b
+    400330: wing right a
+    400332: wing right b
+    2100000: 'Material #541'
+    2100002: 'Material #543'
+    2100004: 'Material #542'
+    2100006: 'Material #535'
+    2100008: 'Material #534'
+    2100010: 'Material #533'
+    2100012: 'Material #532'
+    2100014: 'Material #538'
+    2100016: 'Material #540'
+    2100018: 'Material #548'
+    2100020: 'Material #539'
+    2100022: 'Material #544'
+    2100024: 'Material #547'
+    2100026: 'Material #545'
+    2100028: 'Material #546'
+    2300000: Cylinder001
+    2300002: Plane001
+    2300004: Plane062
+    2300006: Plane063
+    2300008: Plane064
+    2300010: Stars
+    3300000: Cylinder001
+    3300002: Plane001
+    3300004: Plane062
+    3300006: Plane063
+    3300008: Plane064
+    3300010: Stars
+    4300000: Mach 3
+    4300002: Side Wing Flames
+    4300004: Core Flame
+    4300006: Internal Base
+    4300008: Hatch Glass
+    4300010: Internal Controls
+    4300012: Bulb
+    4300014: Cylinder001
+    4300016: Plane001
+    4300018: Box001
+    4300020: Box002
+    4300022: Box003
+    4300024: Stars
+    4300026: Plane062
+    4300028: Plane063
+    4300030: Plane064
+    4300032: Eyebrows 1
+    4300034: Body
+    4300036: Hair
+    4300038: Face
+    4300040: Teeth
+    4300042: Blush
+    4300044: Eyes
+    4300046: Gem
+    4300048: Irises
+    4300050: OUTLINE
+    4300052: Side Wing Flames001
+    4300054: Core Flame001
+    4300056: Internal Base001
+    4300058: Internal Controls001
+    4300060: Bulb001
+    4300062: Hair001
+    4300064: Face001
+    4300066: Teeth001
+    4300068: Eyes001
+    4300070: Gem001
+    4300072: Mach 004
+    4300074: Plane009
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Blush
+    13700002: Body
+    13700004: Box001
+    13700006: Box002
+    13700008: Box003
+    13700010: Bulb
+    13700012: Bulb001
+    13700014: Core Flame
+    13700016: Core Flame001
+    13700018: Eyebrows 1
+    13700020: Eyes
+    13700022: Eyes001
+    13700024: Face
+    13700026: Face001
+    13700028: Gem
+    13700030: Gem001
+    13700032: Hair
+    13700034: Hair001
+    13700036: Hatch Glass
+    13700038: Internal Base
+    13700040: Internal Base001
+    13700042: Internal Controls
+    13700044: Internal Controls001
+    13700046: Irises
+    13700048: Mach 004
+    13700050: Mach 3
+    13700052: OUTLINE
+    13700054: Plane009
+    13700056: Side Wing Flames
+    13700058: Side Wing Flames001
+    13700060: Teeth
+    13700062: Teeth001
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #532'
+    second: {fileID: 2100000, guid: 82c288ba1fd2439488ca5fab4b82f13b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #533'
+    second: {fileID: 2100000, guid: cd2026f4da66ca247a6fa09a9f1b3073, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #534'
+    second: {fileID: 2100000, guid: 84bcc3b39578d174a9c22d2fa6409ab0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #535'
+    second: {fileID: 2100000, guid: a0f5afcbd4e31ec4b8f433e8e3414484, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #538'
+    second: {fileID: 2100000, guid: d39c9d6b9f905a14499667dab998b54b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #539'
+    second: {fileID: 2100000, guid: 34e42b413a226e444b1047b9a647330a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #540'
+    second: {fileID: 2100000, guid: 76851705e564d9c439e8d8740ac7d4d7, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #541'
+    second: {fileID: 2100000, guid: adbc02751738ea9469069b02cc0d2230, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #542'
+    second: {fileID: 2100000, guid: 3aa8e2017b61a80499342b6bcdf2f626, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #543'
+    second: {fileID: 2100000, guid: 0ba61d19cbf21e645a77d2963f5a9b86, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #544'
+    second: {fileID: 2100000, guid: dde74d083dba7e146abc5d6f9ae2cd30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #545'
+    second: {fileID: 2100000, guid: 3ad32016f7b8e3d4ea383a558babbe82, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #546'
+    second: {fileID: 2100000, guid: 0c73490ade7f3f24dae5fd86afc85308, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #547'
+    second: {fileID: 2100000, guid: e22aeec6e817971489803fa962dbf3d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: 'Material #548'
+    second: {fileID: 2100000, guid: 84af945713d943247a74f530a84bbe32, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.001
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
