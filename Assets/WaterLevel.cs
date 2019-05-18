@@ -9,9 +9,13 @@ public class WaterLevel : MonoBehaviour
     public bool waterIsFull = false;
     float waterFillLevel;
 
+    public GameObject dancingPlayer;
+    GameObject soundSource;
+
     // Start is called before the first frame update
     void Start()
     {
+        soundSource = GameObject.FindGameObjectWithTag("Sound");
         water = this.GetComponent<ZippyWater2D>();
         waterFillLevel = water.transform.position.y;
     }
@@ -25,15 +29,22 @@ public class WaterLevel : MonoBehaviour
             water.transform.position += new Vector3(0, 2f, 0f) * Time.deltaTime;
             if (water.transform.position.y >= waterFillLevel)
             {
-                waterFillLevel += 1;
+                waterFillLevel += 3;
                 waterIsFull = true;
             }
+        }
+        if(waterFillLevel >= 15)
+        {
+            Debug.Log("Game over");
+            //GameObject.Find("GameManager").GetComponent<GameManager>().HasLevelFinished = true;
+            GameObject.Find("GameManager").GetComponent<GameManager>().isWinner = true;
+            dancingPlayer.gameObject.SetActive(true);
         }
     }
 
     public void StartWaterFill()
     {
+        soundSource.GetComponent<AudioSource>().PlayOneShot(Resources.Load<AudioClip>("burrowpull"));
         waterIsFull = false;
     }
-
 }
