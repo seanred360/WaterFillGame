@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 using System.Linq;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -27,6 +28,8 @@ public class GameManager : MonoBehaviour
     // delay in between game stages
     public float delay = 1f;
 
+    public Text winnerText;
+
     // events invoked for StartLevel/PlayLevel/EndLevel coroutines
     public UnityEvent setupEvent;
     public UnityEvent startLevelEvent;
@@ -40,6 +43,13 @@ public class GameManager : MonoBehaviour
             StartCoroutine("RunGameLoop");
     }
 
+    private void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+    }
     // run the main game loop, separated into different stages/coroutines
     IEnumerator RunGameLoop()
     {
@@ -163,5 +173,23 @@ public class GameManager : MonoBehaviour
     public void PlayLevel()
     {
         m_hasLevelStarted = true;
+    }
+
+    public void QuitTheGame()
+    {
+        Application.Quit();
+    }
+
+    public void ChangeWinnerText(string winner)
+    {
+        if(GameObject.Find("LeftDancingPikmin") != null)
+        {
+            winner = "Player 1 Wins!";
+        }
+        if (GameObject.Find("RightDancingPikmin") != null)
+        {
+            winner = "Player 2 Wins!";
+        }
+        winnerText.text = winner;
     }
 }

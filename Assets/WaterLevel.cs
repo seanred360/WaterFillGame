@@ -10,12 +10,12 @@ public class WaterLevel : MonoBehaviour
     float waterFillLevel;
 
     public GameObject dancingPlayer;
-    GameObject soundSource;
+    AudioManager audioManager;
 
     // Start is called before the first frame update
     void Start()
     {
-        soundSource = GameObject.FindGameObjectWithTag("Sound");
+        audioManager = GameObject.Find("AudioManager").GetComponent<AudioManager>();
         water = this.GetComponent<ZippyWater2D>();
         waterFillLevel = water.transform.position.y;
     }
@@ -44,7 +44,14 @@ public class WaterLevel : MonoBehaviour
 
     public void StartWaterFill()
     {
-        soundSource.GetComponent<AudioSource>().PlayOneShot(Resources.Load<AudioClip>("burrowpull"));
         waterIsFull = false;
+    }
+
+    void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Player")
+        {
+            audioManager.PlayVoice(Random.Range(0, 6));
+        }
     }
 }
