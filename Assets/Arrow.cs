@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Arrow : MonoBehaviour
 {
@@ -16,10 +17,13 @@ public class Arrow : MonoBehaviour
     // iTween animation time
     public float moveTime = 1f;
 
+    Button button;
+
     // Start is called before the first frame update
     void Start()
     {
         MoveArrow(this.gameObject);
+        button = GetComponent<Button>();
     }
 
     void MoveArrow(GameObject arrowInstance)
@@ -31,5 +35,17 @@ public class Arrow : MonoBehaviour
             "time", moveTime,
             "easetype", easeType
         ));
+    }
+
+    public void DelayButton()
+    {
+        button.interactable = false;
+        StartCoroutine(DelayButtonRoutine());
+    }
+
+    IEnumerator DelayButtonRoutine()
+    {
+        yield return new WaitForSeconds(3f);
+        button.interactable = true;
     }
 }

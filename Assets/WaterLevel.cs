@@ -36,9 +36,9 @@ public class WaterLevel : MonoBehaviour
         if(waterFillLevel >= 15)
         {
             Debug.Log("Game over");
-            //GameObject.Find("GameManager").GetComponent<GameManager>().HasLevelFinished = true;
             GameObject.Find("GameManager").GetComponent<GameManager>().isWinner = true;
             dancingPlayer.gameObject.SetActive(true);
+
         }
     }
 
