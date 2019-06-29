@@ -45,7 +45,7 @@ public class Arrow : MonoBehaviour
 
     IEnumerator DelayButtonRoutine()
     {
-        yield return new WaitForSeconds(3f);
+        yield return new WaitForSeconds(2f);
         button.interactable = true;
     }
 }

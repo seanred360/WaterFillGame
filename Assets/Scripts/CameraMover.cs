@@ -33,4 +33,15 @@ public class CameraMover : MonoBehaviour
             "easetype", easeType
         ));
     }
+
+    public void MoveCameraBack()
+    {
+        // animate the arrow in a cycle from startDistance to endDistance in local z
+        iTween.MoveBy(gameObject, iTween.Hash(
+            "y", startDistance - endDistance,
+            //"looptype", iTween.LoopType.loop,
+            "time", moveTime,
+            "easetype", easeType
+        ));
+    }
 }

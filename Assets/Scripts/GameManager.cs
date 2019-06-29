@@ -182,11 +182,11 @@ public class GameManager : MonoBehaviour
 
     public void ChangeWinnerText(string winner)
     {
-        if(GameObject.Find("LeftDancingPikmin") != null)
+        if(GameObject.FindGameObjectWithTag("LavaL").GetComponent<WaterLevel>().points >= 4)
         {
             winner = "Player 1 Wins!";
         }
-        if (GameObject.Find("RightDancingPikmin") != null)
+        if (GameObject.FindGameObjectWithTag("LavaR").GetComponent<WaterLevel>().points >= 4)
         {
             winner = "Player 2 Wins!";
         }
