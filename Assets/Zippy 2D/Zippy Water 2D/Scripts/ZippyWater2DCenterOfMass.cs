@@ -6,12 +6,8 @@ public class ZippyWater2DCenterOfMass : MonoBehaviour {
 	public Vector2 CenterOfMass;
 
 	void Awake () {
-		
-        if (GetComponent<Rigidbody2D>())
-            GetComponent<Rigidbody2D>().centerOfMass = CenterOfMass;
-        else
-            GetComponent<Rigidbody2D>().centerOfMass = CenterOfMass;
-    }
+		GetComponent<Rigidbody2D>().centerOfMass = CenterOfMass;
+	}
 
 #if UNITY_EDITOR
 	void OnDrawGizmos () {
