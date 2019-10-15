@@ -17,7 +17,7 @@ public class WaterLevel : MonoBehaviour
     CameraMover cameraMover;
 
     public int points;
-    int rolledNumber = 3;
+    float rolledNumber = 1.5f;
     int badLuck;
   
     // Start is called before the first frame update
@@ -33,17 +33,17 @@ public class WaterLevel : MonoBehaviour
 
     public void StartWaterFill()
     {
-        if ((Random.value < 0.5f) && (badLuck <3))
-        {
-            rolledNumber = 0;
-            audioManager.PlaySFX(5);
-            badLuck += 1;
-        }
-        else
-        {
-            rolledNumber = 3;
-            badLuck = 0;
-        }
+        //if ((Random.value < 0.5f) && (badLuck <3))
+        //{
+        //    rolledNumber = 0;
+        //    audioManager.PlaySFX(5);
+        //    badLuck += 1;
+        //}
+        //else
+        //{
+        //    rolledNumber = 3;
+        //    badLuck = 0; 
+        //}
         waterIsFull = false;
     }
 
@@ -60,9 +60,10 @@ public class WaterLevel : MonoBehaviour
                 waterIsFull = true;
             }
         }
-        if(waterFillLevel >= 15)
+        if(waterFillLevel >= 14)
         {
             audioManager.PlaySFX(4);
+            audioManager.PlaySFX(6);
             points +=1;
             waterFillLevel = 0;
             waterIsFull = true;
@@ -74,7 +75,7 @@ public class WaterLevel : MonoBehaviour
             //GameObject.Find("GameManager").GetComponent<GameManager>().isWinner = true;
             //dancingPlayer.gameObject.SetActive(true);
         }
-        if(points >= 4)
+        if(points >= 3)
         {
             Debug.Log("Game is over");
             GameObject.Find("GameManager").GetComponent<GameManager>().isWinner = true;
